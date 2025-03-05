@@ -11,7 +11,7 @@ const OfflineVideo = ({ username }: OfflineVideoProps) => {
 			<p className="text-muted-foreground">
 				<span className="font-semibold capitalize">
 					{username}
-				</span> is offline.
+				</span> Esta desconectado.
 			</p>
 		</div>
 	);

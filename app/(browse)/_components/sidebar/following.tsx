@@ -24,7 +24,7 @@ const Following = ({ data }: FollowingProps) => {
 			{!collapsed && (
 				<div className="pl-6 mb-4">
 					<p className="text-sm text-muted-foreground">
-						Following
+						Siguiendo
 					</p>
 				</div>
 			)}

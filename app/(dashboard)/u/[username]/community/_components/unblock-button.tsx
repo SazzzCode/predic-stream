@@ -25,7 +25,7 @@ const UnblockButton = ({ userId }: UnblockButtonProps) => {
 			onClick={onClick}
 			disabled={isPending}
 		>
-			Unblock
+			Desbloquear
 		</Button>
 	);
 };

@@ -41,7 +41,7 @@ const AboutCard = ({
 					</span> {followedByLabel}
 				</div>
 				<p className="text-sm">
-					{bio || "This user prefers to keep an air of mystery about them."}
+					{bio || "Este usuario prefiere mantener un aire de misterio sobre sí mismo."}
 				</p>
 			</div>
 		</div>

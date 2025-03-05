@@ -18,7 +18,7 @@ export function Logo() {
         </div>
         <div className={cn(font.className, "hidden lg:block")}>
           <p className="text-lg font-semibold">Predic Stream</p>
-          <p className="text-xs text-muted-foreground">Creator Dashboard</p>
+          <p className="text-xs text-muted-foreground">Panel de control del creador</p>
         </div>
       </div>
     </Link>

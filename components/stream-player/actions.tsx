@@ -33,16 +33,16 @@ const Actions = ({
 			console.log("---------------");
 			console.log("hostIdentity: " + hostIdentity);
 			onFollow(hostIdentity)
-				.then((data) => toast.success(`Now you are following ${data.following.username}`))
-				.catch(() => toast.error("Error while trying to follow user"));
+				.then((data) => toast.success(`Ahora estás siguiendo. ${data.following.username}`))
+				.catch(() => toast.error("Error al intentar seguir al usuario."));
 		});
 	};
 
 	const handleUnfollow = () => {
 		startTransition(() => {
 			onUnfollow(hostIdentity)
-				.then((data) => toast.success(`You are no more following ${data.following.username}`))
-				.catch(() => toast.error("Error while trying to unfollow user"));
+				.then((data) => toast.success(`Ahora ya no estás siguiendo.  ${data.following.username}`))
+				.catch(() => toast.error("Error al intentar dejar de seguir al usuario."));
 		});
 	};
 

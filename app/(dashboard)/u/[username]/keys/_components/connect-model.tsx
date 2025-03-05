@@ -58,12 +58,12 @@ const ConnectModel = () => {
 		<Dialog>
 			<DialogTrigger>
 				<Button variant="primary">
-					Generate connection
+				Generar conexión
 				</Button>
 			</DialogTrigger>
 			<DialogContent>
 				<DialogHeader>
-					<DialogTitle>Generate connection</DialogTitle>
+					<DialogTitle>Generar conexión</DialogTitle>
 				</DialogHeader>
 				<Select
 					disabled={isPending}
@@ -81,7 +81,7 @@ const ConnectModel = () => {
 				<Alert>
 					<AlertTriangle className='h-4 w-4' />
 					<AlertTitle>Warning!</AlertTitle>
-					<AlertDescription>This action will reset all active streams using the current connection</AlertDescription>
+					<AlertDescription>Esta acción restablecerá todas las transmisiones activas que utilicen la conexión actual.</AlertDescription>
 				</Alert>
 				<div className='flex justify-between'>
 					<DialogClose

@@ -38,7 +38,7 @@ const BioModal = ({ initialValue }: BioModalProps) => {
 		startTransition(() => {
 			updateUser({ bio: value })
 				.then(() => {
-					toast.success("Bio updated successfully");
+					toast.success("Biografía actualizada exitosamente.");
 					closeRef.current?.click();
 				})
 				.catch(() => toast.error("Something went wrong"));

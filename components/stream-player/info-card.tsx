@@ -32,10 +32,10 @@ const InfoCard = ({
 					</div>
 					<div>
 						<h2 className="text-sm lg:text-lg font-semibold capitalize">
-							Edit your stream info
+						Edita la información de tu transmisión.
 						</h2>
 						<p className="text-muted-foreground text-xs lg:text-sm">
-							Maximize your visibility
+						Maximiza tu visibilidad.
 						</p>
 					</div>
 					<InfoModal
@@ -47,7 +47,7 @@ const InfoCard = ({
 				<div className="p-4 lg:p-6 space-y-4">
 					<div>
 						<h3 className="text-sm text-muted-foreground mb-2">
-							Name
+							Nombre
 						</h3>
 						<p className="text-sm font-semibold">
 							{name}
@@ -55,7 +55,7 @@ const InfoCard = ({
 					</div>
 					<div>
 						<h3 className="text-sm text-muted-foreground mb-2">
-							Thumbnail
+						Miniatura
 						</h3>
 						<p className="text-sm font-semibold">
 							{thumbnailUrl && (

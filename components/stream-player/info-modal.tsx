@@ -44,7 +44,7 @@ const InfoModal = ({
 		startTransition(() => {
 			updateStream({ name: name })
 				.then((data) => {
-					toast.success(`Stream name updated to ${data.name}`);
+					toast.success(`Nombre de la transmisión actualizado a. ${data.name}`);
 					closeRef.current?.click();
 				})
 				.catch(() => toast.error("Something went wrong"));
@@ -55,7 +55,7 @@ const InfoModal = ({
 		startTransition(() => {
 			updateStream({ thumbnailUrl: null })
 				.then(() => {
-					toast.success("Thumbnail removed");
+					toast.success("Miniatura removida");
 					setThumbnailUrl(null);
 					closeRef.current?.click();
 				})
@@ -77,7 +77,7 @@ const InfoModal = ({
 			<DialogContent>
 				<DialogHeader>
 					<DialogTitle>
-						Edit stream info
+						Editar la infirmacion del stream
 					</DialogTitle>
 				</DialogHeader>
 				<form
@@ -86,7 +86,7 @@ const InfoModal = ({
 				>
 					<div className='space-y-2'>
 						<Label>
-							Name
+							Nombre
 						</Label>
 						<Input
 							placeholder='Stream Name'
@@ -97,7 +97,7 @@ const InfoModal = ({
 					</div>
 					<div className='space-y-2'>
 						<Label>
-							Thumbnail
+							Miniatura
 						</Label>
 						{thumbnailUrl ? (
 							<div className='relative aspect-video rounded-xl overflow-hidden border border-white/10'>
@@ -147,7 +147,7 @@ const InfoModal = ({
 								type='button'
 								variant='ghost'
 							>
-								Cancel
+								Cancelar
 							</Button>
 						</DialogClose>
 						<Button
@@ -155,7 +155,7 @@ const InfoModal = ({
 							variant="primary"
 							type='submit'
 						>
-							Save
+							Guardar
 						</Button>
 					</div>
 				</form>

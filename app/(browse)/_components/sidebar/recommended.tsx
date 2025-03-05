@@ -20,7 +20,7 @@ const Recommended = ({ data }: RecommendedProps) => {
 			{showLabel && (
 				<div className="pl-6 mb-4">
 					<p className="text-sm text-muted-foreground">
-						Recommended
+						Recomendado
 					</p>
 				</div>
 			)}

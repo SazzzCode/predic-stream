@@ -14,23 +14,23 @@ const ChatPage = async () => {
 		<div className="p-6">
 			<div className="mb-4">
 				<h1 className="text-2xl font-bold">
-					Chat settings
+				Configuración del chat
 				</h1>
 			</div>
 			<div className="space-y-4">
 				<ToggleCard
 					field="isChatEnabled"
-					label="Enable chat"
+					label="Habilitar chat"
 					value={stream.isChatEnabled}
 				/>
 				<ToggleCard
 					field="isChatDelayed"
-					label="Enable chat delay"
+					label="Habilitar retraso en el chat"
 					value={stream.isChatDelayed}
 				/>
 				<ToggleCard
 					field="isChatFollowersOnly"
-					label="Enable chat for followers only"
+					label="Habilitar chat solo para seguidores"
 					value={stream.isChatFollowersOnly}
 				/>
 			</div>

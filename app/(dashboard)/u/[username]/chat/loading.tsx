@@ -5,7 +5,7 @@ const ChatLoading = () => {
 		<div className="p-6">
 			<div className="mb-4">
 				<h1 className="text-2xl font-bold">
-					Chat settings
+				Configuración del chat
 				</h1>
 			</div>
 			<div className="space-y-4">
